@@ -11,6 +11,7 @@
 	<groupId>com.hello</groupId>
 	<artifactId>HelloWorld</artifactId>
 	<version>1.0</version>
+	<packaging>war</packaging>
 	<name>HelloWorld</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -37,10 +38,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-			<plugin>
-    				<artifactId>maven-war-plugin</artifactId>
-    				<version>3.3.1</version>
 			</plugin>
 		</plugins>
 	</build>
