@@ -8,8 +8,11 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HelloController {
 
 	@GetMapping("/hello")
-	public String getHello(Model model) {
-		model.addAttribute("hello","Hello Spring Boot User");
-		return "hello";
+	//public String getHello(Model model) {
+	//	model.addAttribute("hello","Hello Spring Boot User");
+	//	return "hello";
+	//}
+	public String getHello() {
+		return "Hello World";
 	}
 }
