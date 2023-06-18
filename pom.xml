@@ -9,8 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hello</groupId>
-	<artifactId>HelloWorld</artifactId>
-	<version>1.0</version>
+	<artifactId>webapp</artifactId>
 	<packaging>war</packaging>
 	<name>HelloWorld</name>
 	<description>Demo project for Spring Boot</description>
@@ -25,17 +24,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-   			<groupId>org.springframework.boot</groupId>
-   			<artifactId>spring-boot-starter-tomcat</artifactId>
-   			<scope>provided</scope>
 		</dependency>
 	</dependencies>
 	<build>
