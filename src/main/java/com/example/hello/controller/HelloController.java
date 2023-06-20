@@ -12,4 +12,5 @@ public class HelloController {
 		model.addAttribute("hello","Hello Spring Boot User");
 		return "hello";
 	}
+	
 }
